@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV Page</title>
+</head>
+<body>
+  <header class="header">
+    <img src="assets/baby.png" alt="avatar-photo" class="avatar">
+    <h1 class="header__title">Nikita Mir | CV</h1>
+    <h3 class="header__subtitle">Frontend Developer</h3>
+  </header>
+  
+  <main>
+    <section class="skills">
+      <h3>Skills</h3>
+      <details>
+        <summary>Skills list</summary>
+
+        <ol>
+          <li class="skill">HTML</li>
+          <li class="skill">CSS</li>
+          <li class="skill">JavaScript</li>
+          <li class="skill">React</li>
+          <li class="skill">TypeScript</li>
+        </ol>
+      </details>
+    </section>
+
+    <article class="article">
+      <h4>Short article about my</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam id asperiores tenetur doloremque velit animi quidem incidunt amet, voluptates iure nihil, et, pariatur dolor! Error suscipit inventore dolor ullam harum?</p>
+    </article>
+
+    <section class="gallery">
+      <h3>Gallery</h3>
+      <img src="https://placehold.co/250x250" alt="placehold-img">
+      <img src="https://placehold.co/250x250" alt="placehold-img">
+      <img src="https://placehold.co/250x250" alt="placehold-img">
+    </section>
+
+    <hr class="hr">
+    <section>
+      <iframe class="video" src="https://www.youtube.com/embed/N-Fa1tm3oz0" title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section class="hobbies">
+      <h4>My Hobbies</h4>
+      <details>
+        <summary>Hobbies</summary>
+
+        <ul>
+          <li>Sport</li>
+          <li>Films</li>
+          <li>Music</li>
+          <li>Food</li>
+          <li>MMA</li>
+        </ul>
+      </details>
+    </section>
+
+    <hr class="hr">
+
+    <section class="ed">
+      <table class="ed__table">
+        <thead>
+          <tr>
+            <th>School / University</th>
+            <th>Profession</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>IT School 1</td>
+            <td>React Dev</td>
+            <td>2018</td>
+          </tr>
+          <tr>
+            <td>IT School 2</td>
+            <td>Angular Dev</td>
+            <td>2020</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="quote">
+      <blockquote>
+        Действие - это единственный путь к успеху 
+      </blockquote>
+    </section>
+
+    <section class="interaction">
+      <form action="https://ya.ru" method="get" class="form" target="_blank">
+
+        <fieldset>
+          <legend>Required fields:</legend>
+
+          <div>
+            <label for="id-name">Firs Name:</label>
+            <input type="text" name="firsName" id="id-name" class="form__control" required>
+          </div>
+
+          <div>
+            <label for="idlast-name">Last Name:</label>
+            <input type="text" name="lastName" id="idlast-name" class="form__control" required>
+          </div>
+          
+          <div>
+            <label for="email-id">E-mail:</label>
+            <input type="email" name="email" id="email-id" class="form__control" placeholder="E-mail" required>
+          </div>
+           
+        </fieldset>
+        <br>
+        <textarea name="text" id="" cols="30" rows="7" class="form__control"></textarea>
+        <br>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      <a href="mailto:it@mail.ru" class="adrees">it@mail.ru</a>
+      <br><br>
+      <a href="tle:+79192231625" class="adrees">tel:+79192231625</a>
+    </address>
+  </footer>
+</body>
+</html>
